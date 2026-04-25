@@ -22,7 +22,7 @@
 * Framework: Spring Framework, MyBatis
 * DB: MariaDB / Oracle
 * Server: Linux (직접 배포 및 운영)
-* WAS: Tomcat (또는 사용한 WAS로 수정)
+* WAS: Tomcat
 * 형상관리: Git (GitLab / GitHub)
 
 ---
