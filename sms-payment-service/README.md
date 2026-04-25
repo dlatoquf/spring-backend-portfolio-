@@ -1,6 +1,22 @@
 # 💳 SMS Payment Service
 > SMS 인증 기반 결제 요청 및 승인 처리 시스템 (REST API 기반)
 
+## 📌 프로젝트 개요
+
+* 프로젝트명: SMS Payment Service
+* 개발 기간: 2025.07 (약 1개월)
+* 개발 인원: 1명 (단독 프로젝트)
+* 역할: API 설계, 비즈니스 로직 구현, DB 설계 및 데이터 처리
+* 플랫폼: Web (REST API)
+
+---
+
+## 🛠 개발 환경
+
+* Language: Java 17
+* Framework: Spring Framework
+* DB: MariaDB
+* API: RESTful API
 ---
 
 ## 🚀 핵심 성과
