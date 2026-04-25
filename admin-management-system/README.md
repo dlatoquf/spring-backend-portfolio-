@@ -4,7 +4,7 @@
 
 ⸻
 
-📌 프로젝트 개요
+##📌 프로젝트 개요
 
 * 프로젝트명: Admin Management System
 * 개발 기간: 2025.03 ~ 2025.05 (약 3개월)
@@ -14,7 +14,7 @@
 
 ⸻
 
-🛠 개발 환경
+##🛠 개발 환경
 
 * Language: Java 17, JavaScript
 * Frontend: HTML5, CSS3, JavaScript 
