@@ -50,7 +50,10 @@
 
 ### 1. 시스템 구조 설계
 
-![시스템 구조](./images/emr-architecture.PNG)
+<p align="center">
+  <img src="./images/emr-architecture.PNG" width="80%">
+</p>
+<p align="center">시스템 구조</p>
 
 - HL7 기반 의료 데이터 송수신 구조 이해  
 - 시스템 간 데이터 흐름 및 역할 분리 설계  
@@ -59,7 +62,10 @@
 
 ### 2. 데이터 흐름 설계
 
-![데이터 흐름](./images/emr-flow.PNG)
+<p align="center">
+  <img src="./images/emr-flow.PNG" width="80%">
+</p>
+<p align="center">데이터 흐름</p>
 
 - 사용자 입력 → 서버 처리 → DB 저장 → 결과 반환 구조  
 - 데이터 흐름 기반 기능 설계 및 구현  
@@ -68,8 +74,15 @@
 
 ### 3. 간호사 메인 페이지 구현
 
-![간호사 화면](./images/emr-nurse-ui1.PNG)
-![간호사 화면](./images/emr-nurse-ui2.PNG)
+<p align="center">
+  <img src="./images/emr-nurse-ui1.PNG" width="80%">
+</p>
+<p align="center">간호사 UI 1</p>
+
+<p align="center">
+  <img src="./images/emr-nurse-ui2.PNG" width="80%">
+</p>
+<p align="center">간호사 UI 2</p>
 
 - 환자 정보 등록 및 조회 UI 구현  
 - 진료 상태 관리 기능 개발  
@@ -79,13 +92,20 @@
 
 ### 4. 서버 및 DB 처리
 
-![백엔드](./images/emr-backend1.PNG)
-![백엔드](./images/emr-backend2.PNG)
+<p align="center">
+  <img src="./images/emr-backend1.PNG" width="80%">
+</p>
+<p align="center">백엔드 처리 로직 1</p>
+
+<p align="center">
+  <img src="./images/emr-backend2.PNG" width="80%">
+</p>
+<p align="center">백엔드 처리 로직 2</p>
 
 - Node.js 기반 REST API 구현  
 - MySQL 데이터 저장 및 조회 처리  
-- 환자 정보와 진료 기록 간 관계형 데이터 처리  
-
+- 환자 정보와 진료 기록 간 관계형 데이터 처리
+  
 ---
 
 ## 💥 트러블 슈팅
