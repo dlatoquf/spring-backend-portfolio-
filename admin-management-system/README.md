@@ -64,28 +64,22 @@
   <img src="./images/list.PNG" width="80%">
 </p>
 <p align="center">가맹점 조회 및 리스트 화면</p>
-
-<div style="display: flex; gap: 10px;">
-  <div style="width:48%">
-    <img src="./images/form-create-1.PNG" style="display:block; margin:0 auto;" width="80%">
-    <p align="center">가맹점 등록</p>
-  </div>
-  <div style="width:48%">
-    <img src="./images/form-create-2.PNG" style="display:block; margin:0 auto;" width="80%">
-    <p align="center">가맹점 상세 입력</p>
-  </div>
-
-</div>
-<div style="display: flex; gap: 10px; margin-top: 10px;">
-  <div style="width:48%">
-    <img src="./images/form-create-3.PNG" style="display:block; margin:0 auto;" width="80%">
-    <p align="center">결제 모듈 등록</p>
-  </div>
-  <div style="width:48%">
-    <img src="./images/form-create-4.PNG" style="display:block; margin:0 auto;" width="80%">
-    <p align="center">영업점 등록</p>
-  </div>
-</div>
+<p align="center">
+  <img src="./images/form-create-1.PNG" width="80%">
+</p>
+<p align="center">가맹점 등록</p>
+<p align="center">
+  <img src="./images/form-create-2.PNG" width="80%">
+</p>
+<p align="center">가맹점 상세 입력</p>
+<p align="center">
+  <img src="./images/form-create-3.PNG" width="80%">
+</p>
+<p align="center">결제 모듈 등록</p>
+<p align="center">
+  <img src="./images/form-create-4.PNG" width="80%">
+</p>
+<p align="center">영업점 등록</p>
 
 - 등록 / 조회 / 수정 화면 UI 직접 설계 및 구현  
 - 사용자 입력 흐름을 고려한 화면 구성  
@@ -108,16 +102,14 @@
 
 ### 3. Excel 대량 업로드 처리
 
-<div style="display: flex; gap: 10px;">
-  <div style="width:48%">
-    <img src="./images/excel-template.PNG" width="100%">
-    <p align="center">엑셀 양식 다운로드</p>
-  </div>
-  <div style="width:48%">
-    <img src="./images/excel-upload.PNG" width="100%">
-    <p align="center">엑셀 업로드 처리</p>
-  </div>
-</div>
+<p align="center">
+  <img src="./images/excel-template.PNG" width="80%">
+</p>
+<p align="center">엑셀 양식 다운로드</p>
+<p align="center">
+  <img src="./images/excel-upload.PNG" width="80%">
+</p>
+<p align="center">엑셀 업로드 처리</p>
 
 - Excel 데이터를 파싱하여 DB에 일괄 저장  
 - 필수값 및 형식 검증 로직 구현  
