@@ -40,8 +40,8 @@
 
 ## 🎯 문제 정의
 
-![문제 정의1](./images/sts-problem1.png)
-![문제 정의2](./images/sts-problem2.png)
+![문제 정의1](./images/sts-problem1.PNG)
+![문제 정의2](./images/sts-problem2.PNG)
 
 - 이론 중심 교육으로 실전 대응 능력 부족  
 - 실습 환경 부족으로 체험형 학습 어려움  
@@ -59,7 +59,7 @@
 
 ### 1. 시스템 구조 설계
 
-![구조](./images/sts-architecture.png)
+![구조](./images/sts-architecture.PNG)
 
 - Unity 기반 기능 구조 설계  
 - 사용자 행동 중심 이벤트 흐름 구성  
@@ -68,8 +68,8 @@
 
 ### 2. 사용자 인터랙션 환경 구현
 
-![UI1](./images/sts-ui1.png)
-![UI2](./images/sts-ui2.png)
+![UI1](./images/sts-ui1.PNG)
+![UI2](./images/sts-ui2.PNG)
 
 - 사용자 캐릭터 및 3D 환경 구성  
 - Unity 공간 내에서 이동 및 상호작용 가능하도록 구현  
@@ -84,7 +84,7 @@
 
 ### 3. Raycast 기반 상호작용 구현
 
-![화재 진압](./images/sts-raycast.png)
+![화재 진압](./images/sts-raycast.PNG)
 
 - Raycast를 활용하여 사용자 시점에서 오브젝트를 감지하도록 구현  
 - 소화기 오브젝트에 Raycast를 적용하고, 일정 거리 내에서 충돌 판정 수행  
