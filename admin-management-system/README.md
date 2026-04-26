@@ -64,10 +64,10 @@
   <img src="./images/list.PNG" width="50%">
 </p>
 <p align="center">가맹점 조회 및 리스트 화면</p>
-<div style="display:flex; justify-content:center; gap:10px;">
-  <img src="./images/form-create-1.PNG" width="42%">
-  <img src="./images/form-create-2.PNG" width="42%">
-</div>
+<p align="center">
+  <img src="./images/form-create-1.PNG" width="45%">
+  <img src="./images/form-create-2.PNG" width="45%">
+</p>
 <p align="center">
   <img src="./images/form-create-3.PNG" width="50%">
 </p>
