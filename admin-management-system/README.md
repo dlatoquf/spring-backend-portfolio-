@@ -64,14 +64,15 @@
   <img src="./images/list.PNG" width="50%">
 </p>
 <p align="center">가맹점 조회 및 리스트 화면</p>
-<p align="center">
+<div style="display:flex; justify-content:center; gap:10px;">
   <img src="./images/form-create-1.PNG" width="45%">
   <img src="./images/form-create-2.PNG" width="45%">
-</p>
-<p align="center">
+</div>
+
+<div style="display:flex; justify-content:center; gap:10px; margin-top:10px;">
   <img src="./images/form-create-3.PNG" width="45%">
   <img src="./images/form-create-4.PNG" width="45%">
-</p>
+</div>
 
 - 등록 / 조회 / 수정 화면 UI 직접 설계 및 구현  
 - 사용자 입력 흐름을 고려한 화면 구성  
