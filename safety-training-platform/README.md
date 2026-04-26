@@ -73,13 +73,9 @@
 ### 2. 사용자 인터랙션 환경 구현
 
 <p align="center">
-  <img src="./images/sts-ui1.PNG" width="80%">
+  <img src="./images/sts-ui1.PNG" width="45%">
+  <img src="./images/sts-ui2.PNG" width="45%">
 </p>
-<p align="center">사용자 인터랙션 UI</p>
-<p align="center">
-  <img src="./images/sts-ui2.PNG" width="80%">
-</p>
-<p align="center">3D 환경 및 맵 구성</p>
 
 - 사용자 캐릭터 및 3D 환경 구성  
 - Unity 공간 내 이동 및 상호작용 구현  
