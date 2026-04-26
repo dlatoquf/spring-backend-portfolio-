@@ -75,8 +75,8 @@
 ### 3. 간호사 메인 페이지 구현
 
 <p align="center">
-  <img src="./images/sts-nurse-ui1.PNG" width="45%">
-  <img src="./images/sts-nurse-ui2.PNG" width="45%">
+  <img src="./images/emr-nurse-ui1.PNG" width="45%">
+  <img src="./images/emr-nurse-ui2.PNG" width="45%">
 </p>
 
 - 환자 정보 등록 및 조회 UI 구현  
@@ -88,8 +88,8 @@
 ### 4. 서버 및 DB 처리
 
 <p align="center">
-  <img src="./images/sts-backend1.PNG" width="45%">
-  <img src="./images/sts-backend2.PNG" width="45%">
+  <img src="./images/emr-backend1.PNG" width="45%">
+  <img src="./images/emr-backend2.PNG" width="45%">
 </p>
 
 - Node.js 기반 REST API 구현  
