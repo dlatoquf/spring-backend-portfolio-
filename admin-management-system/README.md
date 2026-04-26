@@ -68,12 +68,15 @@
   <img src="./images/form-create-1.PNG" width="45%">
   <img src="./images/form-create-2.PNG" width="45%">
 </p>
+<p align="center">가맹점 등록 화면</p>
 <p align="center">
   <img src="./images/form-create-3.PNG" width="50%">
 </p>
+<p align="center">결제모듈 등록 화면</p>
 <p align="center">
   <img src="./images/form-create-4.PNG" width="50%">
 </p>
+<p align="center">영업점 등록 화면</p>
 
 - 등록 / 조회 / 수정 화면 UI 직접 설계 및 구현  
 - 사용자 입력 흐름을 고려한 화면 구성  
@@ -100,6 +103,7 @@
   <img src="./images/excel-template.PNG" width="45%">
   <img src="./images/excel-upload.PNG" width="45%">
 </p>
+<p align="center">엑셀 대량등록 템플릿 및 업로드</p>
 
 - Excel 데이터를 파싱하여 DB에 일괄 저장  
 - 필수값 및 형식 검증 로직 구현  
