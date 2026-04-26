@@ -67,22 +67,22 @@
 
 <div style="display: flex; gap: 10px;">
   <div style="width:48%">
-    <img src="./images/form-create-1.PNG" width="100%">
+    <img src="./images/form-create-1.PNG" width="80%">
     <p align="center">가맹점 등록</p>
   </div>
   <div style="width:48%">
-    <img src="./images/form-create-2.PNG" width="100%">
+    <img src="./images/form-create-2.PNG" width="80%">
     <p align="center">가맹점 상세 입력</p>
   </div>
 </div>
 
 <div style="display: flex; gap: 10px; margin-top: 10px;">
   <div style="width:48%">
-    <img src="./images/form-create-3.PNG" width="100%">
+    <img src="./images/form-create-3.PNG" width="80%">
     <p align="center">결제 모듈 등록</p>
   </div>
   <div style="width:48%">
-    <img src="./images/form-create-4.PNG" width="100%">
+    <img src="./images/form-create-4.PNG" width="80%">
     <p align="center">영업점 등록</p>
   </div>
 </div>
@@ -98,7 +98,7 @@
 <p align="center">
   <img src="./images/search.PNG" width="80%">
 </p>
-<p align="center">📌 조건별 검색 기능</p>
+<p align="center">조건별 검색 기능</p>
 
 - MyBatis 기반 SQL 작성  
 - 조건별 검색 기능 구현  
