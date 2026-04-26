@@ -75,14 +75,9 @@
 ### 3. 간호사 메인 페이지 구현
 
 <p align="center">
-  <img src="./images/emr-nurse-ui1.PNG" width="80%">
+  <img src="./images/sts-nurse-ui1.PNG" width="45%">
+  <img src="./images/sts-nurse-ui2.PNG" width="45%">
 </p>
-<p align="center">간호사 UI 1</p>
-
-<p align="center">
-  <img src="./images/emr-nurse-ui2.PNG" width="80%">
-</p>
-<p align="center">간호사 UI 2</p>
 
 - 환자 정보 등록 및 조회 UI 구현  
 - 진료 상태 관리 기능 개발  
@@ -93,14 +88,9 @@
 ### 4. 서버 및 DB 처리
 
 <p align="center">
-  <img src="./images/emr-backend1.PNG" width="80%">
+  <img src="./images/sts-backend1.PNG" width="45%">
+  <img src="./images/sts-backend2.PNG" width="45%">
 </p>
-<p align="center">백엔드 처리 로직 1</p>
-
-<p align="center">
-  <img src="./images/emr-backend2.PNG" width="80%">
-</p>
-<p align="center">백엔드 처리 로직 2</p>
 
 - Node.js 기반 REST API 구현  
 - MySQL 데이터 저장 및 조회 처리  
