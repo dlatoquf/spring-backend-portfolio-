@@ -67,22 +67,22 @@
 
 <div style="display: flex; gap: 10px;">
   <div style="width:48%">
-    <img src="./images/form-create-1.PNG" width="80%">
+    <img src="./images/form-create-1.PNG" style="display:block; margin:0 auto;" width="80%">
     <p align="center">가맹점 등록</p>
   </div>
   <div style="width:48%">
-    <img src="./images/form-create-2.PNG" width="80%">
+    <img src="./images/form-create-2.PNG" style="display:block; margin:0 auto;" width="80%">
     <p align="center">가맹점 상세 입력</p>
   </div>
-</div>
 
+</div>
 <div style="display: flex; gap: 10px; margin-top: 10px;">
   <div style="width:48%">
-    <img src="./images/form-create-3.PNG" width="80%">
+    <img src="./images/form-create-3.PNG" style="display:block; margin:0 auto;" width="80%">
     <p align="center">결제 모듈 등록</p>
   </div>
   <div style="width:48%">
-    <img src="./images/form-create-4.PNG" width="80%">
+    <img src="./images/form-create-4.PNG" style="display:block; margin:0 auto;" width="80%">
     <p align="center">영업점 등록</p>
   </div>
 </div>
