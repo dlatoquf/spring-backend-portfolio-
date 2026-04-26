@@ -62,7 +62,7 @@
 ### 1. 시스템 구조 설계
 
 <p align="center">
-  <img src="./images/sts-architecture.PNG" width="70%">
+  <img src="./images/sts-architecture.PNG" width="50%">
 </p>
 
 - Unity 기반 기능 구조 설계  
@@ -89,7 +89,7 @@
 ### 3. Raycast 기반 상호작용 구현
 
 <p align="center">
-  <img src="./images/sts-raycast.PNG" width="80%">
+  <img src="./images/sts-raycast.PNG" width="50%">
 </p>
 <p align="center">화재 진압 인터랙션</p>
 
