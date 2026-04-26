@@ -40,8 +40,10 @@
 
 ## 🎯 문제 정의
 
-![문제 정의1](./images/sts-problem1.PNG)
-![문제 정의2](./images/sts-problem2.PNG)
+<p align="center">
+  <img src="./images/sts-problem1.PNG" width="45%">
+  <img src="./images/sts-problem2.PNG" width="45%">
+</p>
 
 - 이론 중심 교육으로 실전 대응 능력 부족  
 - 실습 환경 부족으로 체험형 학습 어려움  
@@ -51,7 +53,7 @@
 ## ⚙️ 주요 기능
 - CPR 및 화재 상황 시나리오 구현  
 - 사용자 이동 및 상호작용 기능  
-- 이벤트 기반 학습 진행 구조  
+- 이벤트 기반 학습 진행 구조
 
 ---
 
@@ -59,7 +61,9 @@
 
 ### 1. 시스템 구조 설계
 
-![구조](./images/sts-architecture.PNG)
+<p align="center">
+  <img src="./images/sts-architecture.PNG" width="70%">
+</p>
 
 - Unity 기반 기능 구조 설계  
 - 사용자 행동 중심 이벤트 흐름 구성  
@@ -68,32 +72,38 @@
 
 ### 2. 사용자 인터랙션 환경 구현
 
-![UI1](./images/sts-ui1.PNG)
-![UI2](./images/sts-ui2.PNG)
+<p align="center">
+  <img src="./images/sts-ui1.PNG" width="80%">
+</p>
+<p align="center">사용자 인터랙션 UI</p>
+<p align="center">
+  <img src="./images/sts-ui2.PNG" width="80%">
+</p>
+<p align="center">3D 환경 및 맵 구성</p>
 
 - 사용자 캐릭터 및 3D 환경 구성  
-- Unity 공간 내에서 이동 및 상호작용 가능하도록 구현  
-- 텍스트 안내 UI를 통해 사용자 행동 유도  
-- 단계별 학습 흐름을 제어하는 인터페이스 구성  
-- 캐릭터 애니메이션을 적용하여  
-  사용자 행동이 자연스럽게 표현되도록 구현  
-- 실제 교육 환경과 유사한 공간을 구성하여  
-  몰입도 높은 학습 경험 제공  
+- Unity 공간 내 이동 및 상호작용 구현  
+- 텍스트 안내 UI 기반 사용자 행동 유도  
+- 단계별 학습 흐름 제어 구조 설계  
+- 캐릭터 애니메이션 적용  
+- 몰입도 높은 교육 환경 구성  
 
 ---
 
 ### 3. Raycast 기반 상호작용 구현
 
-![화재 진압](./images/sts-raycast.PNG)
+<p align="center">
+  <img src="./images/sts-raycast.PNG" width="80%">
+</p>
+<p align="center">화재 진압 인터랙션</p>
 
-- Raycast를 활용하여 사용자 시점에서 오브젝트를 감지하도록 구현  
-- 소화기 오브젝트에 Raycast를 적용하고, 일정 거리 내에서 충돌 판정 수행  
-- 불꽃 오브젝트와 충돌 시 해당 오브젝트의 Particle System을 탐색하여  
+- Raycast를 활용하여 사용자 시점에서 오브젝트 감지  
+- 소화기 오브젝트에 Raycast 적용 및 거리 기반 충돌 판정  
+- 불꽃 오브젝트와 충돌 시 Particle System을 탐색하여  
   자동으로 정지되도록 처리  
-- 이를 통해 사용자가 소화기를 작동했을 때  
-  실제 화재를 진압하는 것과 유사한 인터랙션 경험 제공  
-- Raycast를 통해 사용자 입력을 3D 공간에서 처리하는 방식 이해  
-
+- 사용자 행동 → 시스템 반응 구조 설계  
+- 실제 화재 진압과 유사한 인터랙션 경험 제공
+  
 ---
 
 ## 💥 트러블 슈팅
