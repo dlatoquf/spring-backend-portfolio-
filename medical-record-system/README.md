@@ -51,7 +51,7 @@
 ### 1. 시스템 구조 설계
 
 <p align="center">
-  <img src="./images/emr-architecture.PNG" width="80%">
+  <img src="./images/emr-architecture.PNG" width="50%">
 </p>
 <p align="center">시스템 구조</p>
 
@@ -63,7 +63,7 @@
 ### 2. 데이터 흐름 설계
 
 <p align="center">
-  <img src="./images/emr-flow.PNG" width="80%">
+  <img src="./images/emr-flow.PNG" width="50%">
 </p>
 <p align="center">데이터 흐름</p>
 
