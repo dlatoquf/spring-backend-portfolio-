@@ -65,13 +65,13 @@
 </p>
 <p align="center">가맹점 조회 및 리스트 화면</p>
 <div style="display:flex; justify-content:center; gap:10px;">
-  <img src="./images/form-create-1.PNG" width="45%">
-  <img src="./images/form-create-2.PNG" width="45%">
+  <img src="./images/form-create-1.PNG" width="42%">
+  <img src="./images/form-create-2.PNG" width="42%">
 </div>
 
 <div style="display:flex; justify-content:center; gap:10px; margin-top:10px;">
-  <img src="./images/form-create-3.PNG" width="45%">
-  <img src="./images/form-create-4.PNG" width="45%">
+  <img src="./images/form-create-3.PNG" width="42%">
+  <img src="./images/form-create-4.PNG" width="42%">
 </div>
 
 - 등록 / 조회 / 수정 화면 UI 직접 설계 및 구현  
