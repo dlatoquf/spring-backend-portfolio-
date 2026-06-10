@@ -1,6 +1,6 @@
-# Admin Management System
+# Medical Record System
 
-> 가맹점 및 영업점의 기본 정보를 효율적으로 관리하고 대량 데이터 처리까지 고려한 웹 기반 관리자 시스템
+> 환자 정보 및 진료 기록을 관리하는 웹 기반 의료 데이터 시스템
 
 ---
 
@@ -8,9 +8,9 @@
 
 | 항목 | 내용 |
 |------|------|
-| 개발 기간 | 2025.03 ~ 2025.05 (약 3개월) |
-| 개발 인원 | 1인 (단독 개발) |
-| 역할 | 기획, 화면 설계, 프론트엔드·백엔드 개발, DB 설계, 배포 및 운영 |
+| 개발 기간 | 2023.09 ~ 2023.12 (약 3개월) |
+| 개발 인원 | 4명 (팀 프로젝트) |
+| 역할 | 간호사 페이지 UI 및 서버 개발, 데이터 처리 로직 구현 |
 | 플랫폼 | Web |
 
 ---
@@ -19,113 +19,96 @@
 
 | 구분 | 기술 |
 |------|------|
-| Backend | Java 17, Spring Framework, MyBatis |
-| Frontend | HTML5, CSS3, JavaScript |
-| Database | MariaDB, Oracle |
-| Infra | Linux, Tomcat |
+| Backend | Node.js (Express) |
+| Frontend | HTML, CSS, JavaScript |
+| Database | MySQL |
 | Tools | Git |
 
 ---
 
 ## 주요 기능
 
-- 영업점 정보 등록 / 수정 / 조회
-- 조건별 검색 기능
-- Excel 업로드 기반 대량 데이터 등록
-- 데이터 유효성 검증
-- 운영 환경 배포 및 유지보수
+- 환자 정보 등록 / 수정 / 조회
+- 진료 기록 생성 및 관리
+- 환자 검색 및 데이터 조회 기능
 
 ---
 
 ## 핵심 구현
 
-### 1. 화면 설계 및 프론트엔드 개발
+### 1. 시스템 구조 설계
 
 <p align="center">
-  <img src="./images/list.PNG" width="50%">
+  <img src="./images/emr-architecture.PNG" width="50%">
 </p>
-<p align="center">가맹점 조회 및 리스트 화면</p>
+<p align="center">시스템 구조</p>
 
-<p align="center">
-  <img src="./images/form-create-1.PNG" width="45%">
-  <img src="./images/form-create-2.PNG" width="45%">
-</p>
-<p align="center">가맹점 등록 화면</p>
-
-<p align="center">
-  <img src="./images/form-create-3.PNG" width="50%">
-</p>
-<p align="center">결제모듈 등록 화면</p>
-
-<p align="center">
-  <img src="./images/form-create-4.PNG" width="50%">
-</p>
-<p align="center">영업점 등록 화면</p>
-
-- 등록 / 조회 / 수정 화면 UI 직접 설계 및 구현
-- 사용자 입력 흐름을 고려한 화면 구성
-- JavaScript 기반 입력 검증 및 이벤트 처리
+- HL7 기반 의료 데이터 송수신 구조 이해
+- 시스템 간 데이터 흐름 및 역할 분리 설계
 
 ---
 
-### 2. 데이터 처리 및 조회 로직
+### 2. 데이터 흐름 설계
 
 <p align="center">
-  <img src="./images/search.PNG" width="50%">
+  <img src="./images/emr-flow.PNG" width="50%">
 </p>
-<p align="center">조건별 검색 기능</p>
+<p align="center">데이터 흐름</p>
 
-- MyBatis 기반 동적 쿼리로 조건별 검색 구현
-- Controller / Service / Repository 구조로 역할 분리
-- 다중 조건 검색 및 페이징 처리
+- 사용자 입력 → 서버 처리 → DB 저장 → 결과 반환 구조
+- 데이터 흐름 기반 기능 설계 및 구현
 
 ---
 
-### 3. Excel 대량 업로드 처리
+### 3. 간호사 메인 페이지 구현
 
 <p align="center">
-  <img src="./images/excel-template.PNG" width="45%">
-  <img src="./images/excel-upload.PNG" width="45%">
+  <img src="./images/emr-nurse-ui1.PNG" width="45%">
+  <img src="./images/emr-nurse-ui2.PNG" width="45%">
 </p>
-<p align="center">엑셀 대량등록 템플릿 및 업로드</p>
 
-- Excel 데이터 파싱 후 DB 일괄 저장
-- 필수값 및 형식 유효성 검증 로직 구현
-- 잘못된 데이터가 DB에 저장되지 않도록 예외 처리
+- 환자 정보 등록 및 조회 UI 구현
+- 진료 상태 관리 기능 개발
+- 사용자 입력 기반 데이터 처리 흐름 연결
 
 ---
 
-### 4. Linux 서버 배포 및 운영
+### 4. 서버 및 DB 처리
 
-- Linux 환경에서 애플리케이션 배포 및 실행 환경 구성
-- 로그 분석을 통한 오류 원인 파악 및 문제 해결
-- 운영 중 발생한 이슈 대응 및 서비스 안정성 유지
+<p align="center">
+  <img src="./images/emr-backend1.PNG" width="45%">
+  <img src="./images/emr-backend2.PNG" width="45%">
+</p>
+
+- Node.js 기반 REST API 구현
+- MySQL 데이터 저장 및 조회 처리
+- 환자 정보와 진료 기록 간 관계형 데이터 처리
 
 ---
 
 ## 트러블슈팅
 
-### Excel 업로드 데이터 검증 문제
+### 환자-진료 기록 관계 설계 문제
 
 **문제**
-Excel 업로드 시 데이터 형식 오류 또는 필수값 누락으로 인해 정상 처리되지 않는 문제 발생
+환자 정보와 진료 기록 간 관계 설정이 명확하지 않아 데이터 조회 및 관리 시 비효율 발생
 
 **해결**
-업로드 단계에서 유효성 검증 로직을 추가하여 잘못된 데이터가 DB에 저장되지 않도록 처리
+환자 테이블과 진료 기록 테이블 간 관계를 재설계하고 참조 구조를 명확히 정의하여 데이터 연결
 
 **결과**
-데이터 정합성을 유지하면서 안정적인 대량 데이터 처리 가능
+데이터 조회 성능 및 관리 효율 개선, 데이터 정합성을 유지하는 구조 확보
 
 ---
 
 ## 데이터 흐름
 
 ```
-사용자 입력 / Excel 업로드
-        ↓
-  데이터 유효성 검증
-        ↓
-   검증된 데이터 DB 저장
-        ↓
-  조건 기반 데이터 검색 및 반환
+환자 정보 입력
+      ↓
+서버에서 데이터 검증 및 처리
+      ↓
+DB에 환자 정보 및 진료 기록 저장
+      ↓
+조회 요청 시 조건 기반 데이터 반환
 ```
